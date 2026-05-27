@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A modern GitHub Pages portfolio with projects, services, and contact form."
+    />
+    <title>Sparrow Jones | Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a href="#home" class="brand" aria-label="Portfolio home">
+          <span class="brand-mark">
+            <img src="assets/Crimson.png" alt="" />
+          </span>
+          <span>Sparrow Jones</span>
+        </a>
+
+        <input
+          class="nav-toggle"
+          type="checkbox"
+          id="nav-toggle"
+          aria-label="Toggle navigation menu"
+        />
+        <label class="menu-button" for="nav-toggle" aria-label="Open navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero-section">
+        <div class="hero-copy">
+          <h1 class="hero-name">HI i'm Sparrow Jones</h1>
+          <p class="hero-role">Software Developer | Problem Solver</p>
+          <p class="hero-text">
+            I create responsive websites, Software systems, and product interfaces
+            with clean structure, thoughtful visuals, and practical user flows.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="primary-btn">View Projects</a>
+            <a href="#contact" class="secondary-btn">Contact Me</a>
+          </div>
+        </div>
+
+        <aside class="profile-board" aria-label="Profile picture">
+          <img src="assets/Profile.png" alt="assets/profile-placeholder.svg" />
+        </aside>
+      </section>
+
+      <section id="about" class="page-section pop-section">
+        <div class="section-heading">
+          <p class="eyebrow">About Me</p>
+          <h2>Software Developer focused on clean, Scalable, memorable interfaces that works .</h2>
+        </div>
+        <div class="about-layout">
+          <p>
+            I design and build <strong>[mobile apps / websites / cloud infrastructure]</strong>. 
+            Essentially, I take complex business problems and translate them into reliable, 
+            user-friendly digital tools using code. I also automate data systems.
+          </p>
+          <p>
+            I focus on building secure <strong>systems using Python, Django, and REST APIs</strong>.
+            Crafting responsive <strong>frontend</strong> with <strong>Javascript</strong> and <strong>UI libraries</strong>.
+            Optimizes data flow using <strong>relational databases</strong> to ensure fast website performance.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills" class="page-section tinted-section">
+        <div class="section-heading">
+          <p class="eyebrow">Skills and Tools</p>
+          <h2>Tools I use to Build systems.</h2>
+        </div>
+        <div class="skills-grid">
+           <article>
+            <span class="skill-icon">JS</span>
+            <span>JavaScript</span>
+          </article>
+          <article>
+            <span class="skill-icon">HTML</span>
+            <span>HTML</span>
+          </article>
+          <article>
+            <span class="skill-icon">CSS</span>
+            <span>CSS</span>
+          </article>
+          <article>
+            <span class="skill-icon">RX</span>
+            <span>React</span>
+          </article>
+          <article>
+            <span class="skill-icon">UI</span>
+            <span>UI / UX Design</span>
+          </article>
+          <article>
+            <span class="skill-icon">Git</span>
+            <span>Git</span>
+          </article>
+          <article>
+            <span class="skill-icon">GH</span>
+            <span>GitHub</span>
+          </article>
+          <article>
+            <span class="skill-icon">Py</span>
+            <span>Python</span>
+          </article><article>
+            <span class="skill-icon">Dj</span>
+            <span>Django</span>
+          </article>
+          <article>
+            <span class="skill-icon">API</span>
+            <span>Django Rest Framework</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="page-section pop-section">
+        <div class="section-heading">
+          <p class="eyebrow">Projects i've worked on</p>
+          <h2>Tap to view live demo and on Github.</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-gallery">
+              <img
+                class="main-shot"
+                src="assets/projects/portfolio-preview.svg"
+                alt="Screenshot preview of a portfolio website project"
+              />
+              <div class="shot-strip" aria-label="Additional portfolio screenshots">
+                <img src="assets/projects/dashboard-preview.svg" alt="" />
+                <img src="assets/projects/shop-preview.svg" alt="" />
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Portfolio Website</h3>
+              <p>
+                A responsive personal portfolio for presenting skills, projects,
+                services, social links, and a Web3Forms contact setup.
+              </p>
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>Tailwind CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#" aria-label="Open live demo for Portfolio Website">
+                  <span class="link-icon">Live</span>
+                  Live Demo
+                </a>
+                <a href="#" aria-label="Open GitHub repository for Portfolio Website">
+                  <span class="link-icon">GH</span>
+                  view on GitHub 
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-gallery">
+              <img
+                class="main-shot"
+                src="assets/Crimson.png"
+                alt="Screenshot preview of an analytics dashboard project"
+              />
+              <div class="shot-strip" aria-label="Additional dashboard screenshots">
+                <img src="assets/projects/portfolio-preview.svg" alt="" />
+                <img src="assets/projects/shop-preview.svg" alt="" />
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Analytics Dashboard</h3>
+              <p>
+                A clean dashboard concept with summary metrics, responsive cards,
+                and clear data groupings for quick decision making.
+              </p>
+              <div class="tech-stack">
+                <span>React</span>
+                <span>Tailwind CSS</span>
+                <span>API</span>
+              </div>
+              <div class="project-links">
+                <a href="#" aria-label="Open live demo for Analytics Dashboard">
+                  <span class="link-icon">Live</span>
+                  Live Demo
+                </a>
+                <a href="#" aria-label="Open GitHub repository for Analytics Dashboard">
+                  <span class="link-icon">GH</span>
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-gallery">
+              <img
+                class="main-shot"
+                src="assets/projects/shop-preview.svg"
+                alt="Screenshot preview of an ecommerce storefront project"
+              />
+              <div class="shot-strip" aria-label="Additional storefront screenshots">
+                <img src="assets/projects/portfolio-preview.svg" alt="" />
+                <img src="assets/projects/dashboard-preview.svg" alt="" />
+              </div>
+            </div>
+            <div class="project-content">
+              <h3>Ecommerce Storefront</h3>
+              <p>
+                A product-focused storefront layout with featured items, clear
+                calls to action, and mobile-friendly shopping sections.
+              </p>
+              <div class="tech-stack">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Stripe</span>
+              </div>
+              <div class="project-links">
+                <a href="#" aria-label="Open live demo for Ecommerce Storefront">
+                  <span class="link-icon">Live</span>
+                  Live Demo
+                </a>
+                <a href="#" aria-label="Open GitHub repository for Ecommerce Storefront">
+                  <span class="link-icon">GH</span>
+                  View on GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="services" class="page-section tinted-section">
+        <div class="section-heading">
+          <p class="eyebrow">Services</p>
+          <h2>Ways I can help bring an idea online.</h2>
+        </div>
+        <div class="services-grid">
+          <article>
+            <span class="service-icon">DEV</span>
+            <h3>Web Applications</h3>
+            <p>Responsive ,Secure Business and personal Websites built for your specific Need.</p>
+          </article>
+          <article>
+            <span class="service-icon">UI</span>
+            <h3>Mobile applications</h3>
+            <p>Intuitive mobile experiences designed for seamless user interaction.</p>
+          </article>
+          <article>
+            <span class="service-icon">FIX</span>
+            <h3>Data Management</h3>
+            <p>Efficiently organize and maintain data structures for optimal performance.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="page-section contact-section pop-section">
+        <div class="section-heading">
+          <p class="eyebrow">Contact</p>
+          <h2>Have a project in mind or want to collaborate? 
+          <h2>free to reach out to me! through email or on social media</h2>.
+          </h2>
+          <div class="contact-socials" aria-label="Social links">
+            <a href="https://github.com/jones153" aria-label="GitHub profile">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 2.87 8.35 6.84 9.7.5.1.68-.22.68-.49v-1.9c-2.78.62-3.37-1.22-3.37-1.22-.45-1.19-1.11-1.5-1.11-1.5-.91-.64.07-.63.07-.63 1 .07 1.53 1.06 1.53 1.06.9 1.57 2.35 1.12 2.92.85.09-.67.35-1.12.63-1.38-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05A9.28 9.28 0 0 1 12 6.94c.85 0 1.7.12 2.5.34 1.9-1.33 2.74-1.05 2.74-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.8-4.57 5.05.36.32.68.94.68 1.9v2.83c0 .27.18.59.69.49A10.2 10.2 0 0 0 22 12.26C22 6.58 17.52 2 12 2Z" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/sparrow-chisinga-169161325" aria-label="LinkedIn profile">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5.1 8.7h3.4V20H5.1V8.7ZM6.8 4a2 2 0 1 1 0 4 2 2 0 0 1 0-4Zm4.1 4.7h3.2v1.54h.05c.45-.86 1.55-1.78 3.18-1.78 3.4 0 4.03 2.24 4.03 5.16V20h-3.4v-5.66c0-1.35-.02-3.09-1.88-3.09-1.89 0-2.18 1.48-2.18 3V20h-3.4V8.7Z" />
+              </svg>
+            </a>
+            <a href="https://x.com/sparrow_jones1" aria-label="X profile">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M14.4 10.4 22 2h-1.8l-6.6 7.3L8.3 2H2.2l8 11.1L2.2 22h1.8l7-7.7 5.6 7.7h6.1l-8.3-11.6Zm-2.5 2.8-.8-1.1L4.7 3.4h2.7l5.2 7.2.8 1.1 6.8 9h-2.7l-5.6-7.5Z" />
+              </svg>
+            </a>
+            <a href="mailto:sparrowjones1@outlook.com" aria-label="Send email">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Zm8 8.1L4.7 7H4v.4l8 6.7 8-6.7V7h-.7L12 13.1Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <form
+          class="contact-form"
+          action="https://api.web3forms.com/submit"
+          method="POST"
+        >
+          <input type="hidden" name="access_key" value="1dcd11ee-b527-495d-881e-714ebc13e2dd" />
+          <input type="hidden" name="subject" value="New portfolio contact message" />
+
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Message
+            <textarea
+              name="message"
+              rows="6"
+              placeholder="Tell me about your project"
+              required
+            ></textarea>
+          </label>
+
+          <button type="submit">
+            Send Message
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Sparrow Jones | Crimson . All rights reserved.</p>
+    </footer>
+  </body>
+</html>
