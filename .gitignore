@@ -1,0 +1,8 @@
+# OS junk files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Code editor folders
+.vscode/
+.idea/
