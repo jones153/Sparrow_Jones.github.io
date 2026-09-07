@@ -49,8 +49,8 @@
           <h1 class="hero-name">HI i'm Sparrow Jones</h1>
           <p class="hero-role">Software Developer | Problem Solver</p>
           <p class="hero-text">
-            I create responsive websites, Software systems, and product interfaces
-            with clean structure, thoughtful visuals, and practical user flows.
+            I create responsive websites, mobile applications, Software systems,
+            and automate data systems.
           </p>
           <div class="hero-actions">
             <a href="#projects" class="primary-btn">View Projects</a>
@@ -72,12 +72,12 @@
           <p>
             I design and build <strong>[mobile apps / websites / cloud infrastructure]</strong>. 
             Essentially, I take complex business problems and translate them into reliable, 
-            user-friendly digital tools using code. I also automate data systems.
+            user-friendly digital tools using code.
           </p>
           <p>
-            I focus on building secure <strong>systems using Python, Django, and REST APIs</strong>.
-            Crafting responsive <strong>frontend</strong> with <strong>Javascript</strong> and <strong>UI libraries</strong>.
-            Optimizes data flow using <strong>relational databases</strong> to ensure fast website performance.
+            I focus on building <strong>secure and scalable</strong> systems.
+            Crafting <strong>responsive</strong> and <strong>intuitive</strong> <strong>user interfaces</strong> that enhance user experience.
+            Optimized to ensure fast performance and smooth interactions across devices.
           </p>
         </div>
       </section>
@@ -107,6 +107,18 @@
           <article>
             <span class="skill-icon">UI</span>
             <span>UI / UX Design</span>
+          </article>
+          <article>
+            <span class="skill-icon">NJS</span>
+            <span>Node.js</span>
+          </article>
+          <article>
+            <span class="skill-icon">VJS</span>
+            <span>Vue.js</span>
+          </article>
+          <article>
+            <span class="skill-icon">EJS</span>
+            <span>Express.js</span>
           </article>
           <article>
             <span class="skill-icon">Git</span>
@@ -150,22 +162,23 @@
               </div>
             </div>
             <div class="project-content">
-              <h3>Portfolio Website</h3>
+              <h3> Loan Management system</h3>
               <p>
-                A responsive personal portfolio for presenting skills, projects,
-                services, social links, and a Web3Forms contact setup.
+                A comprehensive solution for managing loan applications, tracking approvals, payments and generating reports.
               </p>
               <div class="tech-stack">
                 <span>HTML</span>
                 <span>Tailwind CSS</span>
                 <span>JavaScript</span>
+                <span>React</span>
+                <span>Django</span>
               </div>
               <div class="project-links">
-                <a href="#" aria-label="Open live demo for Portfolio Website">
+                <a href="#" aria-label="Open live demo for Loan Management System">
                   <span class="link-icon">Live</span>
                   Live Demo
                 </a>
-                <a href="#" aria-label="Open GitHub repository for Portfolio Website">
+                <a href="#" aria-label="Open GitHub repository for Loan Management System">
                   <span class="link-icon">GH</span>
                   view on GitHub 
                 </a>
@@ -194,7 +207,7 @@
               <div class="tech-stack">
                 <span>React</span>
                 <span>Tailwind CSS</span>
-                <span>API</span>
+                <span>Django rest API</span>
               </div>
               <div class="project-links">
                 <a href="#" aria-label="Open live demo for Analytics Dashboard">
@@ -228,8 +241,9 @@
                 calls to action, and mobile-friendly shopping sections.
               </p>
               <div class="tech-stack">
-                <span>HTML</span>
-                <span>CSS</span>
+                <span>React</span>
+                <span>Tailwind CSS</span>
+                <span>Node.js</span>
                 <span>Stripe</span>
               </div>
               <div class="project-links">
@@ -337,5 +351,25 @@
     <footer class="site-footer">
       <p>&copy; 2026 Sparrow Jones | Crimson . All rights reserved.</p>
     </footer>
+
+    <script>
+      const navToggle = document.getElementById('nav-toggle');
+      const navLinks = document.querySelectorAll('.nav-links a');
+      const contactForm = document.querySelector('.contact-form');
+
+      navLinks.forEach((link) => {
+        link.addEventListener('click', () => {
+          if (navToggle) {
+            navToggle.checked = false;
+          }
+        });
+      });
+
+      if (contactForm) {
+        contactForm.addEventListener('submit', () => {
+          contactForm.reset();
+        });
+      }
+    </script>
   </body>
 </html>
